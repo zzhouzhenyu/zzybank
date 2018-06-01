@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+<input type="text">
+<input type="text">
+<input type="text">
+<input type="text">
+        <button></button>
+</form>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function () {
+        inpt = $("input");
+        console.log(inpt);
+        inpt1= $(":input");
+        console.log(inpt1);
+    })
+//    $("input") 和$(":input") 区别
+  /*  1.$("form :input") 返回form中的所有表单对象，包括textarea、select、button等.
+
+    2. $("form input")返回form中的所有input标签对象.
+
+    3. form input 是属于层级选择器(将每一个选择器匹配到的元素合并后一起返回).
+
+    4. form :input是属于表单选择器(匹配所有<input>、<textarea>、<select>、<button>元素).*/
+
+</script>
+</body>
+</html>
